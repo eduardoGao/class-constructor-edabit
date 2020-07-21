@@ -8,7 +8,8 @@ class Student {
 }
 
 const std1 = new Student('Eduardo', 'Diaz')
-const std2 = new Student('Zally', 'Meza')
+const std2 = new Student('Diana', 'Reyes')
+const std3 = new Student('Teresa', 'Vidal')
 
 function showStudent(id) {
   console.log(id.firstName)
@@ -19,3 +20,4 @@ function showStudent(id) {
 
 showStudent(std1)
 showStudent(std2)
+showStudent(std3)
