@@ -2,7 +2,7 @@ let word = 'Hello world unespected'
 
 function reverse(str) {
   let convertArray = str.split(' ')
-  for(i = 0; i < convertArray.length; i++) {
+  for(let i = 0; i < convertArray.length; i++) {
     if(convertArray[i].length >= 5) {
       convertArray[i] = convertArray[i].split('').reverse().join('')
     }

@@ -1,0 +1,39 @@
+3327274712
+33-38-24-58-67
++55 67 32 49 84
+5595648235e12
+38 25 02 44 37
+
+Expresión Regular para encontrar estos teléfonos:
+^\+?(\d{2,2}[- ]?){1,5}[e]?.*$
+
+-------------------------------------------------------
+
+url: https://google.com
+url: https://platzi.com/clases/expresiones
+http://note.org/image.jpg/ii/ghgh/hjivhw
+http://funciones.mx/home.html
+
+Expresión Regular para encontrar URL's
+https?:\/\/\w+\.[\w]{2,5}.*
+
+-------------------------------------------------------
+
+lalo.diaz1896@gmail.com
+esto-es-un-mail@yahoo.com
+otro_mail@outlook.es
+micorreo_personal@empresa.mx
+
+Expresión regular para encontrar mails:
+[\w\.\-]{3,30}@[\w\.]{3,}
+
+-------------------------------------------------------
+
+Eduardo Esaú Díaz
+Guillermo Beltrán
+Isis García López
+Enrique Rocha Moreno
+H3ctor Nuevo
+
+Expresión Regular para encontrar nombres:
+^([A-ZÁÉÍÓÚa-záéíóú]+\s?){2,4}$
